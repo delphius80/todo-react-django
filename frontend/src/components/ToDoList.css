@@ -1,0 +1,51 @@
+/* src/components/ToDoList.css */
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logout-button {
+    align-self: flex-end;
+    padding: 8px 12px;
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.todo-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.todo-form button {
+    padding: 10px;
+    background-color: #17a2b8;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.todo-form button:hover {
+    background-color: #138496;
+}
+
+.todo-list {
+    list-style: none;
+}

@@ -1,0 +1,35 @@
+/* src/components/Login.css */
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.auth-form button {
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+    background-color: #218838;
+}
+
+.auth-form .link {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.auth-form .link a {
+    color: #007bff;
+}
