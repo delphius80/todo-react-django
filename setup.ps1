@@ -1,5 +1,5 @@
 # Setup-DevEnvironment.ps1
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 # Exit immediately if a command exits with a non-zero status
 $ErrorActionPreference = "Stop"
 
